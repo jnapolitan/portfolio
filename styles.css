@@ -3,12 +3,15 @@ body {
   font-size: 10px;
   color: black;
   background: white;
+  background-size: cover;
 }
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: url('/assets/header-background.png');
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -36,22 +39,22 @@ h1.code {
 }
 
 h1.design {
-  font-family: 'Caveat', cursive;
-  font-size: 90px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
   animation: fadein 2s;
   -webkit-animation: fadein 2s;
 }
 
 h1 span.cursor {
   position: absolute;
-  top: 0;
+  top: 3px;
   right: -5px;
   background-color: white;
   width: 100%;
   border-left: 3px solid transparent;
-  -webkit-animation: typing 1s steps(8) forwards,
+  -webkit-animation: typing 2s steps(8) forwards,
     cursor 1s infinite;
-  animation: typing 1s steps(8) forwards,
+  animation: typing 2s steps(8) forwards,
     cursor 1s infinite;
 }
 
@@ -72,6 +75,7 @@ h1 span.cursor {
 	from { width: 100%;}
 	to { width: 0;}
 }
+
 @keyframes cursor{
 	50% { border-color: black;}
 }
@@ -86,7 +90,8 @@ h1 span.cursor {
 .nav {
   display: flex;
   justify-content: space-around;
-  padding-top: 30px;
+  padding: 20px 0;
+  background-color: white;
 }
 
 .nav-link {
@@ -96,6 +101,7 @@ h1 span.cursor {
   display: block;
   padding: 10px 20px;;
   border: 1px solid gray;
+  border-radius: 5px;
 }
 
 /* HEADER */
