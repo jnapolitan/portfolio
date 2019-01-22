@@ -100,8 +100,6 @@ h1 span.cursor {
   color: gray;
   display: block;
   padding: 10px 20px;;
-  border: 1px solid gray;
-  border-radius: 5px;
 }
 
 /* HEADER */
