@@ -2,4 +2,16 @@
 
 .profile-pic {
   border-radius: 50%;
+  border: 1px solid black;
+}
+
+.resume {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  z-index: 1;
 }
