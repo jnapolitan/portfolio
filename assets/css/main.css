@@ -2876,7 +2876,8 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background: url('/images/header-bg.jpeg');
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.75);
 		position: relative;
 		text-align: center;
@@ -2891,11 +2892,11 @@ input, select, textarea {
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
-			color: #ffffff;
+			color: #000000;
 		}
 
-		#header header p {
-			color: #ffffff;
+		#header p {
+			color: #000000;
 		}
 
 		#header header.major:after {
@@ -2907,8 +2908,9 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 1px #000000;
+			color: #000000 !important;
+			font-weight: bold;
 		}
 
 			#header input[type="submit"]:hover,
