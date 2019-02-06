@@ -2007,6 +2007,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#header {
+		height: 100vh;
+	}
+
 	header p {
 		color: #999;
 		margin: 0 0 1.5em 0;
@@ -2965,11 +2969,21 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			margin: 0;
+			margin: 15px;
+		}
+
+		#header h1 span {
+			padding: 5px;
+			background-color: #ffffff;
 		}
 
 		#header p {
 			margin: 1em 0 0 0;
+		}
+
+		#header p span {
+			padding: 5px;
+			background-color: #ffffff;
 		}
 
 		#header .actions {
