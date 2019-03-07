@@ -2973,7 +2973,8 @@ input, select, textarea {
 		}
 
 		#header span {
-			padding: 5px;
+			padding: 10px;
+			border-radius: 5px;
 			background-color: #ffffff;
 			cursor: default;
 			display: inline-block;
