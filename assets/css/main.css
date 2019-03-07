@@ -2972,18 +2972,21 @@ input, select, textarea {
 			margin: 15px;
 		}
 
-		#header h1 span {
+		#header span {
 			padding: 5px;
 			background-color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			transform: scale(1);
+			transition: all 0.2s ease-in-out;
 		}
 
+		#header span:hover {
+			transform: scale(1.05);
+		}
+		
 		#header p {
 			margin: 1em 0 0 0;
-		}
-
-		#header p span {
-			padding: 5px;
-			background-color: #ffffff;
 		}
 
 		#header .actions {
