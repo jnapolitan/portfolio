@@ -14,8 +14,6 @@
   display: flex;
   justify-content: space-between;
   padding: 50px;
-  position: absolute;
-  top: 10px;
 }
 
 .header-links a {

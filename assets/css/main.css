@@ -2007,10 +2007,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	#header {
-		height: 100vh;
-	}
-
 	header p {
 		color: #999;
 		margin: 0 0 1.5em 0;
@@ -2879,7 +2875,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		height: 100vh;
 		background: url('images/header-bg.jpg');
 		background-size: cover;
 		color: rgba(255, 255, 255, 0.75);
@@ -3210,13 +3206,6 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
-
-		/* Header */
-
-			#header {
-				padding: 6em 0 6em 0 ;
-			}
-
 	}
 
 /* Large */
@@ -3258,7 +3247,6 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3295,12 +3283,6 @@ input, select, textarea {
 
 			.main {
 				padding: 5em 3em 3em 3em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 8em 3em 8em 3em ;
 			}
 
 		/* Footer */
@@ -3388,12 +3370,6 @@ input, select, textarea {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
 
-		/* Header */
-
-			#header {
-				padding: 4em 3em 4em 3em ;
-			}
-
 				#header .actions {
 					margin: 2em 0 0 0;
 				}
@@ -3425,11 +3401,6 @@ input, select, textarea {
 				padding: 2em 1.5em 0.1em 1.5em ;
 			}
 
-		/* Header */
-
-			#header {
-				padding: 4em 2em 4em 2em ;
-			}
 
 				#header br {
 					display: none;
@@ -3472,12 +3443,6 @@ input, select, textarea {
 
 			.main {
 				padding: 2em 1em 0.1em 1em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 3em 1em 3em 1em ;
 			}
 
 		/* Footer */
