@@ -27,6 +27,7 @@ function displayAltHTML() {
 function displayOriginalHTML() {
   setTimeout(() => {
     this.innerHTML = originalHTML[this.id];
+    profileImageDiv.setAttribute("style", `background-position: 0px`);
   }, 100);
 }
 

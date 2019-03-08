@@ -2887,11 +2887,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#header a {
+		#header .header-links a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#header a:hover {
+			#header .header-links a:hover {
 				color: #ffffff;
 			}
 

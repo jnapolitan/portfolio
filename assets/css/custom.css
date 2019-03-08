@@ -9,10 +9,16 @@
   width: 200px;
 }
 
-.resume {
+.header-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 10px;
+}
+
+.header-links a {
   color: black;
   font-weight: bold;
   text-transform: uppercase;
