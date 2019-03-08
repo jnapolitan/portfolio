@@ -6,13 +6,13 @@ const profileImageDiv = document.querySelector('.profile-pic');
 const originalHTML = {
   "firstH1": "Hi, I'm <strong>Julian</strong>.",
   "secondH1": "I'm a software engineer.",
-  "tagline": "I love solving problems across the spectrum of software development."
+  "tagline": "I love solving problems."
 };
 
 const altHTML = {
   "firstH1": "Some people call me <strong>Jules</strong>.",
   "secondH1": "And I also love the outdoors.",
-  "tagline": "And I've been told by many that I have a pretty good sense of humor."
+  "tagline": "And I'm told I have a good sense of humor."
 };
 
 function displayAltHTML() {
