@@ -2876,8 +2876,6 @@ input, select, textarea {
 
 	#header {
 		height: 100vh;
-		background: url('images/header-bg.jpg');
-		background-size: cover;
 		color: rgba(255, 255, 255, 0.75);
 		position: relative;
 		text-align: center;
