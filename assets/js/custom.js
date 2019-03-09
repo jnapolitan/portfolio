@@ -1,7 +1,6 @@
 // Rollover headers
 const header = document.querySelector('#header');
 const headerSpans = header.querySelectorAll('span');
-const profileImageDiv = document.querySelector('.profile-pic');
 
 const originalHTML = {
   "firstH1": "Hi, I'm <strong>Julian</strong>.",
@@ -18,16 +17,12 @@ const altHTML = {
 function displayAltHTML() {
   setTimeout(() => {
     this.innerHTML = altHTML[this.id];
-    profileImageDiv.setAttribute(
-      "style", `background-position: ${parseInt(this.dataset.imageoffset)}px`
-      );
   }, 100);
 }
 
 function displayOriginalHTML() {
   setTimeout(() => {
     this.innerHTML = originalHTML[this.id];
-    profileImageDiv.setAttribute("style", `background-position: 0px`);
   }, 100);
 }
 
