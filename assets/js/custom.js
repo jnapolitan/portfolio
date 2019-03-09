@@ -10,7 +10,7 @@ const originalHTML = {
 
 const altHTML = {
   "firstH1": "Some people call me <strong>Jules</strong>.",
-  "secondH1": "And I also love the outdoors.",
+  "secondH1": "Versed in UX and product management.",
   "tagline": "And I'm told I have a good sense of humor."
 };
 
@@ -34,7 +34,7 @@ let lFollowX = 0,
   lFollowY = 0,
   x = 0,
   y = 0,
-  friction = 1 / 30;
+  friction = 1 / 40;
 
 function moveBackground() {
   x += (lFollowX - x) * friction;
@@ -45,16 +45,18 @@ function moveBackground() {
   const background = document.querySelector('.bg');
   background.setAttribute(
     'style', 
-    `-webkit-transorm: ${translate}; -moz-transform: ${translate}; transform: ${translate}`);
+    `-webkit-transorm: ${translate}; 
+    -moz-transform: ${translate}; 
+    transform: ${translate}`
+  );
 
   window.requestAnimationFrame(moveBackground);
 }
 
 window.addEventListener('mousemove', e => {
-  console.log(e)
-;  let lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
-  let lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+  let lMouseX = Math.max(-100, Math.min(100, this.innerWidth / 2 - e.clientX));
+  let lMouseY = Math.max(-100, Math.min(100, this.innerHeight / 2 - e.clientY));
+  lFollowX = (20 * lMouseX) / 100;
   lFollowY = (10 * lMouseY) / 100;
 });
 

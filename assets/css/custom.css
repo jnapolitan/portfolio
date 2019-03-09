@@ -1,7 +1,7 @@
 /* CUSTOM STYLES */
 
 .profile-pic {
-  margin: 0 auto;
+  margin: 50px auto;
   border-radius: 50%;
   background: url('../../images/profile.png') no-repeat;
   display: block;
